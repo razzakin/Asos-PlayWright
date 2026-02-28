@@ -23,6 +23,7 @@ def test_search_has_results (page: Page):
     search_page = SearchPage(page)
     expect(search_page.results_count).to_be_visible()
 
+
 #def test_men_button_directs_correctly
 
 #def test_item_page_directs_to_home_page:
